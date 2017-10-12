@@ -15,6 +15,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        <activity android:name="PerformanceActivity"/>
+
+       <activity android:name="SettingActivity"/>
+
+       <activity android:name="DiagnosticActivity"/>
+
+            <activity android:name="InformationActivity"/>
+
         </activity>
     </application>
 
