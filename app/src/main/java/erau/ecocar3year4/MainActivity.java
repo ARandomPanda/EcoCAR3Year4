@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, SettingActivity.class);
         startActivity(intent);
     }
-    public void diagnositicButtonClicked(View view){
+    public void diagnosticButtonClicked(View view){
         Intent intent = new Intent(MainActivity.this, SettingActivity.class);
         startActivity(intent);
     }

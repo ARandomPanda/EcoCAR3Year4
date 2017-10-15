@@ -4,13 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="erau.ecocar3year4.MainActivity"
-    android:background="#000000"
-    android:weightSum="10">
+    tools:context="erau.ecocar3year4.MainActivity">
 
-<linearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    ></linearLayout>
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000"
+        android:weightSum="10"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8.5"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:onClick="performanceButtonClicked"/>
+                <!--add image to button-->
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:onClick="diagnosticButtonClicked"/>
+                <!--add image to button -->
+
+
+        </LinearLayout>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
