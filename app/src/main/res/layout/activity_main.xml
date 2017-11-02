@@ -27,7 +27,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="8.5"
+            android:layout_weight="9"
             android:gravity="center_horizontal">
 
             <ImageButton
@@ -44,6 +44,21 @@
                 android:layout_weight="0.5"
                 android:onClick="diagnosticButtonClicked"/>
                 <!--add image to button -->
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:onClick="informationButtonClicked"/>
+            <!--add image to button-->
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:onClick="settingButtonClicked"/>
+            <!--add image to button -->
 
 
         </LinearLayout>
