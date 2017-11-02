@@ -33,32 +33,33 @@
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="0.5"
-                android:onClick="performanceButtonClicked"/>
-                <!--add image to button-->
-
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.5"
-                android:onClick="diagnosticButtonClicked"/>
-                <!--add image to button -->
+                android:onClick="performanceButtonClicked"
+                android:background="@drawable/performance"
+                android:backgroundTint="#fff"/>
 
             <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="0.5"
-                android:onClick="informationButtonClicked"/>
-            <!--add image to button-->
-
+                android:onClick="diagnosticButtonClicked"
+                android:background="@drawable/diag"
+                android:backgroundTint="#fff"/>
 
             <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="0.5"
-                android:onClick="settingButtonClicked"/>
-            <!--add image to button -->
+                android:onClick="informationButtonClicked"
+                android:background="@drawable/info"
+                android:backgroundTint="#fff"/>
 
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:onClick="settingButtonClicked"
+                android:background="@drawable/setting"
+                android:backgroundTint="#fff" />
 
         </LinearLayout>
     </LinearLayout>
