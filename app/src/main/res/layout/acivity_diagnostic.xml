@@ -1,10 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_diagnostic"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    >
+    android:weightSum="1">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:onClick="ElectConButtonClicked"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:text="@string/ElectricalConsumption"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:onClick="CurDraButtonClicked"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:text="@string/CurrentDraw"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:onClick="FuelConButtonClicked"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:text="@string/FuelConsumption"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:text=""
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:text=""
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:text=""
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
 
 </LinearLayout>

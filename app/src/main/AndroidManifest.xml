@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ec3_final_logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -16,15 +16,20 @@
             </intent-filter>
             </activity>
 
-            <activity android:name=".MainActivity" />
+            <activity android:name=".MainActivity"
+                android:screenOrientation="portrait"/>
 
-            <activity android:name=".PerformanceActivity" />
+            <activity android:name=".PerformanceActivity"
+                android:screenOrientation="portrait"/>
 
-            <activity android:name=".SettingActivity" />
+            <activity android:name=".SettingActivity"
+                android:screenOrientation="portrait"/>
 
-            <activity android:name=".DiagnosticActivity" />
+            <activity android:name=".DiagnosticActivity"
+                android:screenOrientation="portrait"/>
 
-            <activity android:name=".InformationActivity" >
+            <activity android:name=".InformationActivity"
+                android:screenOrientation="portrait">
 
         </activity>
     </application>
